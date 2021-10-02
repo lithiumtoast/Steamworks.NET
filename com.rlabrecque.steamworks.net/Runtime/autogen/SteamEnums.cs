@@ -14,7 +14,9 @@
 using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
+#if STEAMWORKS_WIN
 using Flags = System.FlagsAttribute;
+#endif
 
 namespace Steamworks {
 	//-----------------------------------------------------------------------------
